@@ -11,7 +11,7 @@ public class TestREsult {
     }
 
     @Test
-    public void testrever12(){
+    public void testrever1(){
         Reverse reverse = new Reverse();
         assertEquals("h.f", reverse.reverse("f.h"));
     }
@@ -24,7 +24,7 @@ public class TestREsult {
     }
 
     @Test
-    public void testrever4(){
+    public void testrever3(){
         Reverse reverse = new Reverse();
         assertEquals("raz.dwa.trzy.cztery", reverse.reverse("cztery.trzy.dwa.raz"));
     }
