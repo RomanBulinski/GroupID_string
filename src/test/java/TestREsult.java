@@ -23,4 +23,10 @@ public class TestREsult {
         assertEquals("kota.ma.robert", reverse.reverse("robert.ma.kota"));
     }
 
+    @Test
+    public void testrever4(){
+        Reverse reverse = new Reverse();
+        assertEquals("raz.dwa.trzy.cztery", reverse.reverse("cztery.trzy.dwa.raz"));
+    }
+
 }
